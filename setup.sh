@@ -7,11 +7,11 @@ echo "Installing Brew"
 echo "Brew Installed"
 
 echo "Installing core libraries"
-brew install cask heroku mongodb node postgresql rbenv kubernetes-cli
+brew cask install heroku mongodb node postgresql rbenv kubernetes-cli 
 echo "Brew Libraries Installed"
 
 echo " Installing Development Programs..............."
-brew cask install grafana flycut google-chrome slack gitkraken spectacle visual-studio-code mongodb-compass postman intellij-idea android-studio microsoft-office
+brew cask install grafana flycut google-chrome slack gitkraken spectacle visual-studio-code beyond-compare mongodb-compass postman intellij-idea android-studio microsoft-office
 echo "Installed Development Programs!!!!!"
 
 echo "Starting PostGres and MongoDB..."
