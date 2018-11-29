@@ -79,6 +79,12 @@ code --install-extension vscjava.vscode-java-test
 code --install-extension vscjava.vscode-maven
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension yzhang.markdown-all-in-one
-code --install-extension zhuangtongfa.Material-theme "
+code --install-extension zhuangtongfa.Material-theme 
+code --install-extension erd0s.terraform-autocomplete
+code --install-extension foxundermoon.shell-format
+code --install-extension janjoerke.jenkins-pipeline-linter-connector
+code --install-extension marlon407.code-groovy
+code --install-extension naco-siren.gradle-language
+code --install-extension shakram02.bash-beautify"
 
 echo "VSCODE EXTENSIONS INSTALLED"
