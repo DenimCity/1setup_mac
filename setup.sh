@@ -6,17 +6,17 @@ echo "Installing Brew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 echo "Brew Installed"
 
+echp "Installing GCLOUD"
+curl https://sdk.cloud.google.com | bash
+echo "Installing GCLOUD FINISHED"
+
 echo "Installing core libraries"
-brew cask install heroku mongodb node postgresql rbenv kubernetes-cli intellij-idea
+brew cask install heroku mongodb node postgresql rbenv kubernetes-cli intellij-idea webstorm
 echo "Brew Libraries Installed"
 
 echo " Installing Development Programs..............."
-brew cask install grafana flycut google-chrome slack gitkraken spectacle visual-studio-code beyond-compare mongodb-compass postman android-studio microsoft-office
+brew cask install grafana flycut google-chrome 
 echo "Installed Development Programs!!!!!"
-
-echo "Starting PostGres and MongoDB..."
-brew services start mongodb
-brew services start postgres
 
 echo "Brew Services Start Complete"
 
