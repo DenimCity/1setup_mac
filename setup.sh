@@ -14,8 +14,16 @@ echo "Installing core libraries"
 brew cask install heroku mongodb node postgresql rbenv kubernetes-cli intellij-idea webstorm
 echo "Brew Libraries Installed"
 
+echo "Installing Code Editors"
+brew cask install visual-studio-code webstorm
+echo "Finished Installing Code Editors"
+
+echo "Installing Iterm"
+brew cask install iterm2
+echo "Installed Iterm"
+
 echo " Installing Development Programs..............."
-brew cask install grafana flycut google-chrome slack spectacle visual-studio-code mongodb-compass postman android-studio microsoft-office
+brew cask install flycut slack spectacle mongodb-compass postman android-studio microsoft-office
 echo "Installed Development Programs!!!!!"
 
 echo "Starting PostGres and MongoDB..."
