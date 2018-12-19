@@ -11,7 +11,7 @@ curl https://sdk.cloud.google.com | bash
 echo "Installing GCLOUD FINISHED"
 
 echo "Installing core libraries"
-brew cask install heroku mongodb node postgresql rbenv kubernetes-cli intellij-idea webstorm
+brew cask install mongodb node postgresql rbenv kubernetes-cli intellij-idea webstorm
 echo "Brew Libraries Installed"
 
 echo "Installing Code Editors"
